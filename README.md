@@ -6,7 +6,7 @@ This is a git search application that is supposed to allow a user to search for 
 
 #### Author
 
- ****Omonge Calvince****&trade; (10/06/2019)
+ Jeremic Arose.
 
 ## Description
 
@@ -22,7 +22,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Project live site
 
-  This is the live .[ Click for the demo](https://calvince.github.io/Git-Search/)
+  This is the live .[ Click for the demo]
 
   
 

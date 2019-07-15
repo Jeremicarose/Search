@@ -6,13 +6,11 @@ import{ ServiceRequestService } from './service-http/service-request.service'
 import { RouterModule,Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
-import { ToggleComponent } from './components/toggle/toggle.component';
 import { UserDetDirective } from './user-det.directive';
 import { DateCountPipe } from './date-count.pipe';
 
 const routes:Routes =[
   {path: 'input-name',component:UserDetailsComponent},
-  {path: 'search-details',component:ToggleComponent},
   {path:'',redirectTo:'/search-details',pathMatch:'full'}
 ];
 
@@ -20,7 +18,7 @@ const routes:Routes =[
   declarations: [
     AppComponent,
     UserDetailsComponent,
-    ToggleComponent,
+  
     UserDetDirective,
     DateCountPipe
   ],
