@@ -32,7 +32,7 @@ export class ServiceRequestService {
       following: number;
     }
     const promise = new Promise(((resolve, reject) => {
-      this.http.get<ApiResponse>('https://api.github.com/users/Jeremicarose' + this.userName + '?access_token=ac97597aee4e8ce65099cc3314e204f31300cec2 '+ this.apiKey )
+      this.http.get<ApiResponse>('https://api.github.com/users/' + this.userName + '?access_token='+ this.apiKey )
       .toPromise()
       .then(res => {
           this.user.login = res.login;

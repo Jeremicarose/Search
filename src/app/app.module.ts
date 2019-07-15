@@ -18,7 +18,6 @@ const routes:Routes =[
   declarations: [
     AppComponent,
     UserDetailsComponent,
-  
     UserDetDirective,
     DateCountPipe
   ],
